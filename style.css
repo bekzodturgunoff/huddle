@@ -31,6 +31,11 @@ nav button {
   color: var(--dark-cyan);
   font-size: 1rem;
   box-shadow: var(--shadow);
+  transition: transform 100ms ease-out;
+}
+
+nav button:active {
+  transform: scale(0.9);
 }
 
 .hero button,
@@ -43,6 +48,12 @@ nav button {
   box-shadow: var(--shadow);
   color: var(--pale-cyan);
   font-size: 1rem;
+  transition: transform 100ms ease-out;
+}
+
+.hero button:active,
+.ready button:active {
+  transform: scale(0.9);
 }
 
 nav,
